@@ -30,8 +30,7 @@ namespace Kantin
         private void Form7_Load(object sender, EventArgs e)
         {
             // TODO: Bu kod satırı 'müşterilerDataSet.Musteri' tablosuna veri yükler. Bunu gerektiği şekilde taşıyabilir, veya kaldırabilirsiniz.
-            this.musteriTableAdapter.Fill(this.müşterilerDataSet.Musteri);
-
+          
         }
         int gelen = 0;
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -40,8 +39,12 @@ namespace Kantin
             textBox2.Text = gelen.ToString();
             
 ;        }
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
-        private void button2_Click(object sender, EventArgs e)
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
         {
 
         }
